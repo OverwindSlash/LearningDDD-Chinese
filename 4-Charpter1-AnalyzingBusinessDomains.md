@@ -294,8 +294,8 @@ C. 支撑 <br>
 D. 不同类型子域的易变性没有差异 <br>
 
 &emsp;考虑 WolfDesk（参见前言）的描述，这是一家提供服务台工单管理系统的公司：<br>
-4. 什么是 WolfDesk 的业务领域？<br>
-5. 什么是 WolfDesk 的核心子域？<br>
-6. 什么是 WolfDesk 的支撑子域？<br>
-7. 什么是 WolfDesk 的通用子域？<br>
+&emsp;4. 什么是 WolfDesk 的业务领域？<br>
+&emsp;5. 什么是 WolfDesk 的核心子域？<br>
+&emsp;6. 什么是 WolfDesk 的支撑子域？<br>
+&emsp;7. 什么是 WolfDesk 的通用子域？<br>
 
