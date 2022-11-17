@@ -129,7 +129,7 @@ Sebastopol, CA 95472<br>
 在 YouTube 上观看我们：[http://youtube.com/oreillymedia](http://youtube.com/oreillymedia)
 
 ## 致谢
-最初，这本书的标题是 "什么是领域驱动设计？"，并在2019年以报告的形式出版。如果没有这份报告，《学习领域驱动设计》就不会有今天，我有义务感谢那些使《什么是领域驱动设计》成为可能的人。Chris Guzikowski、Ryan Shaw 和 Alicia Young。^[1]
+最初，这本书的标题是 "什么是领域驱动设计？"，并在2019年以报告的形式出版。如果没有这份报告，《学习领域驱动设计》就不会有今天，我有义务感谢那些使《什么是领域驱动设计》成为可能的人。Chris Guzikowski、Ryan Shaw 和 Alicia Young。[^1]
 
 如果没有 O'Reilly 的内容总监和多元化人才负责人 Melissa Duffield，这本书也不可能问世，她支持了这个项目并使之成为现实。谢谢你，Melissa，谢谢你的帮助。
 
@@ -147,4 +147,4 @@ Jill Leonard 是本书的开发编辑、项目经理和总教练。Jill 在这�
 
 最后，我想把这本书献给我们敬爱的 Galina Ivanovna Tyumentseva，她在这个项目中给予了我很大的支持，在本书写作期间我们不幸失去了她。我们会永远记住你。
 
-^[1]: 每当我提到一群人时，名单都是按姓氏字母顺序排列的。
+[^1]: 每当我提到一群人时，名单都是按姓氏字母顺序排列的。
