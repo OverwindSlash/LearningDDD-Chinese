@@ -304,5 +304,5 @@ D. 所有以上的问题都有可能发生。 <br>
 4. 回到本书序言中 WolfDesk 的例子，系统的哪些部分有可能被实现为事务脚本或活动记录？
 
 
-[^1]: Fowler, M. (2002). 企业应用架构的模式。波士顿。Addison-Wesley
-[^2]: Fowler, M. (2002). 企业应用架构的模式。波士顿。Addison-Wesley
+[^1]: Fowler, M. (2002). 企业应用架构模式。波士顿。Addison-Wesley
+[^2]: Fowler, M. (2002). 企业应用架构模式。波士顿。Addison-Wesley
