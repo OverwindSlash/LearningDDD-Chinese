@@ -9,13 +9,13 @@
 
 ## 问题
 
-要提供一个软件解决方案，我们首先要了解问题：我们所处的业务领域是什么，业务目标是什么，以及实现这些目标的策略是什么。
+要提供一个软件解决方案，我们首先要了解问题：我们所处的 *业务领域* 是什么，业务目标是什么，以及实现这些目标的策略是什么。
 
-我们使用通用语言来深入了解我们必须在软件中实现的业务领域和其逻辑。
+我们使用 *通用语言* 来深入了解我们必须在软件中实现的业务领域和其逻辑。
 
-你学会了通过将业务问题分解成限界上下文来管理它的复杂性。每个限界上下文都实现了业务领域的单一模型，旨在解决一个特定的问题。
+你学会了通过将业务问题分解成 *限界上下文* 来管理它的复杂性。每个限界上下文都实现了业务领域的单一模型，旨在解决一个特定的问题。
 
-我们讨论了如何识别和分类业务领域的构件：核心子域、支撑子域和通用子域。表 E-1 对这三种类型的子域进行了比较。
+我们讨论了如何识别和分类业务领域的构件：*核心子域*、*支撑子域* 和 *通用子域*。表 E-1 对这三种类型的子域进行了比较。
 
 表 E-1。三种类型的子域
 
@@ -27,7 +27,7 @@
 
 ## 解决方案
 
-你学会了利用这些知识来设计针对每种类型的子域的优化解决方案。我们讨论了四种业务逻辑实现模式--事务脚本、活动记录、领域模型和事件溯源领域模型，以及每种模式所能发挥的场景。你还看到了为业务逻辑的实现提供所需脚手架的三种架构模式：分层架构、端口和适配器以及 CQRS。图 E-1 总结了使用这些模式进行战术决策的启发式方法。
+你学会了利用这些知识来设计针对每种类型的子域的优化解决方案。我们讨论了四种业务逻辑实现模式--*事务脚本*、*活动记录*、*领域模型* 和 *事件溯源领域模型*，以及每种模式所能发挥的场景。你还看到了为业务逻辑的实现提供所需脚手架的三种架构模式：*分层架构*、*端口和适配器* 以及 *CQRS*。图 E-1 总结了使用这些模式进行战术决策的启发式方法。
 
 <img src=images/figureE-1.png />
 图 E-1. 总结战术决策启发式方法的决策树 <br><br>
@@ -44,43 +44,43 @@
 
 ### 进阶领域驱动设计
 
-* Evans, E. (2003). Domain-Driven Design: Tackling Complexity in the Heart of Software. Boston: Addison-Wesley.
+* Evans, E. (2003). [Domain-Driven Design: Tackling Complexity in the Heart of Software.](https://learning.oreilly.com/library/view/domain-driven-design-tackling/0321125215/) Boston: Addison-Wesley.
 
 介绍领域驱动设计方法的 Eric Evans 的原著。尽管它没有反映 DDD 的最新方面，例如领域事件和事件溯源，但它仍然是成为 DDD 黑带的必备读物。
 
-* Martraire, C. (2019). Living Documentation: Continuous Knowledge Sharing by Design. Boston: Addison-Wesley.
+* Martraire, C. (2019). [Living Documentation: Continuous Knowledge Sharing by Design. ](https://learning.oreilly.com/library/view/living-documentation-continuous/9780134689418/)Boston: Addison-Wesley.
 
 在这本书中，Cyrille Martraire 提出了一种基于领域驱动设计的知识共享、文档和测试的方法。
 
-* Vernon, V. (2013). Implementing Domain-Driven Design. Boston: AddisonWesley.
+* Vernon, V. (2013). [Implementing Domain-Driven Design.](https://learning.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/) Boston: AddisonWesley.
 
 又一个永恒的 DDD 经典。Vaughn Vernon 对领域驱动设计思想及其战略和战术工具集的使用进行了深入的讨论和详细的实例。作为学习的基础，Vaughn 使用了一个真实的 DDD 实施失败的例子，以及团队通过应用基本的路线修正而获得的复兴之旅。
 
-* Young, G. (2017). Versioning in an Event Sourced System. Leanpub.
+* Young, G. (2017). [Versioning in an Event Sourced System.](https://leanpub.com/esversioning/read) Leanpub.
 
 在第 7 章中，我们讨论了演化事件溯源系统可能是一个挑战。本书就是专门讨论这个话题的。
 
 ### 架构和集成模式
 
-* Dehghani, Z. (Expected to be published in 2022). Data Mesh: Delivering DataDriven Value at Scale. Boston: O’Reilly.
+* Dehghani, Z. (Expected to be published in 2022). [Data Mesh: Delivering DataDriven Value at Scale.](https://www.oreilly.com/library/view/data-mesh/9781492092384/) Boston: O’Reilly.
 
 Zhamak Dehghani 是我们在第 16 章讨论的数据网格模式的作者。在这本书中，Dehghani 解释了数据管理架构背后的原理，以及如何在实践中实现数据网格架构。
 
-* Fowler, M. (2002). Patterns of Enterprise Application Architecture. Boston: Addison-Wesley.
+* Fowler, M. (2002). [Patterns of Enterprise Application Architecture.](https://learning.oreilly.com/library/view/patterns-of-enterprise/0321127420/) Boston: Addison-Wesley.
 
 我在第 5 章和第 6 章多次引用的经典应用架构模式书。事务脚本、活动记录和领域模型模式最初就是在这本书中定义的。
 
-* Hohpe, G., & Woolf, B. (2003). Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions. Boston: Addison-Wesley.
+* Hohpe, G., & Woolf, B. (2003). [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions.](https://learning.oreilly.com/library/view/enterprise-integration-patterns/0321200683/) Boston: Addison-Wesley.
 
 第 9 章中讨论的许多模式最初是在本书中介绍的。阅读本书可以了解更多的组件集成模式。
 
-* Richardson, C. (2019). Microservice Patterns: With Examples in Java. New York: Manning Publications.
+* Richardson, C. (2019). [Microservice Patterns: With Examples in Java.](https://www.manning.com/books/microservices-patterns) New York: Manning Publications.
 
 在这本书中，Chris Richardson 提供了许多在架构基于微服务的解决方案时经常使用的模式的详细例子。其中被讨论的模式有 saga、流程管理器和 outbox，我们在第 9 章中讨论了这些模式。
 
 ### 遗留系统的现代化
 
-* Kaiser, S. (Expected to be published in 2022). Adaptive Systems with Domain Driven Design, Wardley Mapping, and Team Topologies. Boston: Addison-Wesley.
+* Kaiser, S. (Expected to be published in 2022). [Adaptive Systems with Domain Driven Design, Wardley Mapping, and Team Topologies.](https://leanpub.com/arch-modernization-ddd) Boston: Addison-Wesley.
 
 Susanne Kaiser 分享了她通过利用领域驱动设计、Wardley 映射和团队拓扑结构实现遗留系统现代化的经验。
 
@@ -98,11 +98,11 @@ Susanne Kaiser 分享了她通过利用领域驱动设计、Wardley 映射和团
 
 ### 事件风暴
 
-* Brandolini, A. (尚未出版). Introducing EventStorming. Leanpub.
+* Brandolini, A. (尚未出版). [Introducing EventStorming.](https://leanpub.com/introducing_eventstorming) Leanpub.
 
 Alberto Brandolini 是事件风暴研讨会的创建者，在这本书中，他详细解释了事件风暴背后的过程和原理。
 
-* Rayner, P. (尚未出版). The EventStorming Handbook. Leanpub.
+* Rayner, P. (尚未出版). [The EventStorming Handbook.](https://leanpub.com/eventstorming_handbook) Leanpub.
 
 Paul Rayner 解释了他如何在实践中使用事件风暴，包括促进成功会议的许多技巧和窍门。
 
